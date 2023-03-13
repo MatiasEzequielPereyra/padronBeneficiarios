@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Conversor CSV a TXT</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <title >Conversor CSV a TXT</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
   
-	<script src="./application.js">
+ 
+  <body>
 
-	</script>
-  <p>Conversor CSV a TXT</p>
-	<input type="file" id="csvFileInput">
-	<button onclick="convert()">Convertir</button>
 
-</body>
+    <div class="container">
+      <p id="title">Conversor CSV a TXT</p>
+      <input type="file" id="csvFileInput" accept=".csv">
+	  <p>   </p>
+      <button id='convert-btn' onclick="convert()">Convertir</button>
+    </div>
+
+    <script src="./application.js"></script>
+  </body>
 </html>
